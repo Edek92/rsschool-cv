@@ -12,3 +12,42 @@ _I am 29 years old. I am from Belarus, now I live in Tbilisi. My goal is to beco
 _HTML, basic CSS, preprocessors SCSS ans SASS, framework Bootstrap, basic syntax of JS._
 
 ### Code examples
+```
+const baseCurrencies = ['USD', 'EUR'];
+const additionalCurrencies = ['UAH', 'RUB', 'CNY'];
+
+let both = [];
+	baseCurrencies.forEach(function(item, i, baseCurrencies) {
+		both.push(item);
+	});
+	additionalCurrencies.forEach(function(item, i, additionalCurrencies) {
+		both.push(item);
+	})
+
+function availableCurr(arr, missingCurr) {
+	let result = 'Доступные валюты:\n';
+	if (arr.length === 0) {
+		return "Нет доступных валют"
+	} else {
+		arr.forEach(function(item, i, baseCurrencies) {
+			if (item !== missingCurr) {
+				result += `${item}\n`
+			}
+		});
+	}
+	return result;
+}
+
+console.log(availableCurr(both, 'UAH'));
+``` 
+
+### Work experience
+_I don't have experience as a JS developer yet_
+
+### Education 
+* Engineer-geologist. Belarusian State University, 2015
+* Fundamentals of web technologies. IT-Academy, 2021
+* GIT basics. Udemy, 2022
+
+### Languages 
+_English. Level B1_
