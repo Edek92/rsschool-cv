@@ -1,8 +1,177 @@
-p {
-	color: blueviolet;
-	text-align: center;
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 
-.text {
-	background-color: blanchedalmond;
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: #E5E4E2;
+}
+
+nav {
+	margin: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+.container {
+	max-width: 1440px;
+   margin: 0 auto;
+}
+
+.menu {
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.menu .menu_link {
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #E5E4E2
+}
+
+main {
+	margin: 0 auto;
+	margin-top: 50px;
+	max-width: 1200px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+aside {
+	height: 100%;
+	width: 40%;
+	padding-top: 60px;
+	background-color: #293133;
+}
+
+.photo_image {
+	margin-left: 25%;
+	margin-bottom: 60px;
+	width: 50%;
+	height: 50%;
+}
+
+.lane_white {
+	margin-top: 30px;
+	margin-left: 10%;
+	width: 50px;
+	height: 2px;
+	background-color: #E5E4E2;
+}
+
+.contacts_title {
+	margin-left: 10%;
+	color: #E5E4E2;
+}
+
+.contacts_list {
+	margin-top: 30px;
+	padding-left: 5px;
+}
+
+.contacts_text {
+	margin-top: 10px;
+	margin-left: 10%;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #E5E4E2;
+}
+
+.education_title {
+	margin-top: 80px;
+	margin-left: 10%;
+	color: #E5E4E2;
+}
+
+.education_subtitle {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	color: #E5E4E2;
+}
+
+.education_text {
+	margin: 0 10%;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #E5E4E2;
+}
+
+.languages {
+	margin-bottom: 60px;
+}
+
+.languages_title {
+	margin-top: 80px;
+	margin-left: 10%;
+	color: #E5E4E2;
+}
+
+.languages_text {
+	margin: 0 10%;
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #E5E4E2;
+}
+
+article {
+	background-color: #c7c2b7;
+	width: 60%;
+	padding: 50px 5%;
+}
+
+h1 {
+	margin-bottom: 0;
+	font-size: 50px;
+}
+
+.description {
+	font-size: 20px;
+	font-style: italic;
+	text-transform: uppercase
+}
+
+.about_title {
+	margin-top: 60px;
+}
+
+.lane_black {
+	margin-top: 30px;
+	width: 50px;
+	height: 2px;
+	background-color: #000000;
+}
+
+.about_text {
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.experience_title {
+	margin-top: 60px;
+}
+
+.experience_text {
+	margin-top: 30px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.experience_link {
+	text-decoration: none;
+}
+
+.code_title {
+	margin-top: 60px;
 }

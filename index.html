@@ -4,11 +4,114 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+	<title>CV</title>
 </head>
 <body>
-	<p>Hello World!</p>
-	<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore esse, culpa aperiam distinctio quibusdam eligendi aliquam eaque vel nam numquam beatae repellendus omnis, id labore possimus quod quisquam. Mollitia, necessitatibus.</p>
+	<header>
+		<nav>
+			<div class="container">
+				<ul class="menu">
+					<li class="menu_item"><a href="#" class="menu_link">Contacts</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">Education</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">Languages</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">About me</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">Experience</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">Code examples</a></li>
+					<li class="menu_item"><a href="#" class="menu_link">Skills</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<aside>
+			<section class="photo">
+				<img class="photo_image" src="assets/1434_oooo.plus.png" alt="My photo">
+			</section>
+
+			<section class="contacts">
+				<h2 class="contacts_title">Contacts</h2>
+				<div class="lane_white"></div>
+				<ul class="contacts_list">
+					<li class="contacts_text">Tbilisi, Georgia</li>
+					<li class="contacts_text">+995 599065680</li>
+					<li class="contacts_text">edvardastapovich@gmail.com</li>
+				</ul>
+			</section>
+
+			<section class="education">
+				<h2 class="education_title">Education</h2>
+				<div class="lane_white"></div>
+				<p class="education_subtitle">2010 - 2015</p>
+				<p class="education_text">Engineer-geologist. Belarusian State University</p>
+				<p class="education_subtitle">2015 - 2017</p>
+				<p class="education_text">Culturologist. Belarusian State University of Culture and Arts</p>
+				<p class="education_subtitle">2022 (in process)</p>
+				<p class="education_text">Web-development 2022. Udemy</p>
+			</section>
+
+			<section class="languages">
+				<h2 class="languages_title">Languages</h2>
+				<div class="lane_white"></div>
+				<p class="languages_text">Русский: native speaker</p>
+				<p class="languages_text">Беларуская: native speaker</p>
+				<p class="languages_text">English: B1 (intermediate)</p>
+				<p class="languages_text">Polski: A2 (pre-intermediate)</p>
+			</section>
+		</aside>
+
+		<article>
+			<h1>EDVARD ASTAPOVICH</h1>
+			<h2 class="description">beginner front-end developer</h2>
+			<section class="about">
+				<h2 class="about_title">About me</h2>
+				<div class="lane_black"></div>
+				<div class="about_text">I am 29 years old. I am from Belarus, now I live in Tbilisi. My goal is to become a JS developer. Now I work in digital cartography. I am an engineer by education, so I am interested in the technical side of the digital world. I want to develop in this direction.</div>
+			</section>
+			<section class="experience">
+				<h2 class="experience_title">Experience</h2>
+				<div class="lane_black"></div>
+				<div class="experience_text">I don't have app development experience yet. In the course of training on Udemy, I made a <a class="experience_link" href="https://edek92.github.io/">landing page</a> that you can see</div>
+			</section>
+			<section class="code">
+				<h2 class="code_title">Code example</h2>
+				<div class="lane_black"></div>
+				<div class="code_text">
+					<pre>const baseCurrencies = ['USD', 'EUR'];
+const additionalCurrencies = ['UAH', 'RUB', 'CNY'];
+						
+let both = [];
+	baseCurrencies.forEach(function(item, i, baseCurrencies) {
+		both.push(item);
+	});
+	additionalCurrencies.forEach(function(item, i, additionalCurrencies) {
+		both.push(item);
+	})
+						
+function availableCurr(arr, missingCurr) {
+	let result = 'Доступные валюты:\n';
+	if (arr.length === 0) {
+		return "Нет доступных валют"
+	} else {
+		arr.forEach(function(item, i, baseCurrencies) {
+			if (item !== missingCurr) {
+				result += `${item}\n`
+			}
+		});
+	}
+	return result;
+}
+						
+console.log(availableCurr(both, 'UAH'));</pre>
+				</div>
+			</section>
+		</article>
+	</main>
+
+	<footer>
+
+	</footer>
 </body>
 </html>
