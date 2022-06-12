@@ -1,7 +1,10 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;
 }
+
+html {
+	scroll-behavior: smooth; 
+ }
 
 body {
 	min-height: 100vh;
@@ -16,7 +19,7 @@ nav {
 	top: 0;
 	width: 100%;
 	height: 50px;
-	background-color: #000000;
+	background-color: #1a2120;
 }
 
 .container {
@@ -34,20 +37,26 @@ nav {
 .menu .menu_link {
 	padding: 10px;
 	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
-	color: #E5E4E2
+	color: #E5E4E2;
+  	transition: color 0.5s;
+}
+
+.menu .menu_link:hover {
+	color: #5d7370
 }
 
 main {
 	margin: 0 auto;
 	margin-top: 50px;
+	height: 100%;
 	max-width: 1200px;
 	display: flex;
-	justify-content: flex-start;
 }
 
 aside {
-	height: 100%;
+	min-height: 100%;
 	width: 40%;
 	padding-top: 60px;
 	background-color: #293133;
@@ -55,7 +64,6 @@ aside {
 
 .photo_image {
 	margin-left: 25%;
-	margin-bottom: 60px;
 	width: 50%;
 	height: 50%;
 }
@@ -70,6 +78,9 @@ aside {
 
 .contacts_title {
 	margin-left: 10%;
+	padding-top: 60px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
 	color: #E5E4E2;
 }
 
@@ -81,14 +92,27 @@ aside {
 .contacts_text {
 	margin-top: 10px;
 	margin-left: 10%;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	color: #E5E4E2;
 }
 
+.contacts_link {
+	text-decoration: none;
+	color: #E5E4E2;
+	transition: color 0.5s;
+}
+
+.contacts_link:hover {
+	color: #5d7370
+}
+
 .education_title {
-	margin-top: 80px;
+	padding-top: 60px;
 	margin-left: 10%;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
 	color: #E5E4E2;
 }
 
@@ -96,11 +120,13 @@ aside {
 	margin-top: 30px;
 	margin-bottom: 10px;
 	margin-left: 10%;
+	font-family: 'Roboto', sans-serif;
 	color: #E5E4E2;
 }
 
 .education_text {
 	margin: 0 10%;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	color: #E5E4E2;
@@ -111,14 +137,17 @@ aside {
 }
 
 .languages_title {
-	margin-top: 80px;
+	padding-top: 60px;
 	margin-left: 10%;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
 	color: #E5E4E2;
 }
 
 .languages_text {
 	margin: 0 10%;
 	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	color: #E5E4E2;
@@ -131,18 +160,25 @@ article {
 }
 
 h1 {
+	margin-top: 20px;
 	margin-bottom: 0;
-	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
 }
 
 .description {
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
-	font-style: italic;
-	text-transform: uppercase
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 .about_title {
-	margin-top: 60px;
+	padding-top: 60px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
 }
 
 .lane_black {
@@ -153,25 +189,142 @@ h1 {
 }
 
 .about_text {
+	font-family: 'Roboto', sans-serif;
 	margin-top: 30px;
 	font-size: 18px;
 	line-height: 1.5;
 }
 
 .experience_title {
-	margin-top: 60px;
+	padding-top: 60px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
 }
 
 .experience_text {
 	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
 
 .experience_link {
-	text-decoration: none;
+	color: #000000;
+	transition: color 0.5s;
+}
+
+.experience_link:hover {
+	color: #5d7370
 }
 
 .code_title {
-	margin-top: 60px;
+	padding-top: 60px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.code_text {
+	background-color: #E5E4E2;
+}
+
+pre {
+	margin-top: 35px;
+	padding: 10px;
+}
+
+.skills_title {
+	padding-top: 60px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.skills_text {
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.skills_container {
+	display: flex;
+	align-items: space-between;
+  	flex-wrap: wrap;
+}
+
+.skills_container_blocks {
+	width: 100%;
+	display: flex;
+}
+
+.skills_container_item {
+	width: 50%;
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.skills_container_count {
+	width: 50%;
+	margin-top: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.circle_black {
+	margin-right: 10px;
+	height: 16px;
+	width: 16px;
+	border-radius: 100%;
+	background-color: #293133;
+}
+
+.circle_white {
+	margin-right: 10px;
+	height: 16px;
+	width: 16px;
+	border-radius: 100%;
+	background-color: #E5E4E2;
+}
+
+footer {
+	height: 80px;
+	background-color: #1a2120;
+}
+
+footer .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.github_container {
+	margin-top: 10px;
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+	background-color: #E5E4E2;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.github_img {
+	width: 55px;
+	height: 55px;
+}
+
+.year_text {
+	margin-top: 13px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #E5E4E2;
+}
+
+.rsschool_img {
+	margin-top: 15px;
+	margin-right: 20px;
+	width: 100px;
 }
