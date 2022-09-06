@@ -6,10 +6,10 @@
 _edvardastapovich@gmail.com_
 
 ### About me:
-_I am 29 years old. I am from Belarus, now I live in Tbilisi. My goal is to become a JS developer. Now I work in digital cartography. I am an engineer by education, so I am interested in the technical side of the digital world. I want to develop in this direction._
+_I am 30 years old. I am from Belarus, now I live in Tbilisi. My goal is to become a JS developer. Now I work in digital cartography. I am an engineer by education, so I am interested in the technical side of the digital world. I want to develop in this direction._
 
 ### Skills
-_HTML, basic CSS, preprocessors SCSS ans SASS, framework Bootstrap, basic syntax of JS._
+_Git, HTML, CSS, preprocessors SCSS ans SASS, framework Bootstrap, JS._
 
 ### Code examples
 ```
@@ -48,6 +48,11 @@ _I don't have experience as a JS developer yet_
 * Engineer-geologist. Belarusian State University, 2015
 * Fundamentals of web technologies. IT-Academy, 2021
 * GIT basics. Udemy, 2022
+* RS School. JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)
+* Web-development 2022. Udemy
 
 ### Languages 
+_Russian. Native speaker_
+_Belarusian language. Native speaker_
 _English. Level B1_
+_Polski. Level A2_
