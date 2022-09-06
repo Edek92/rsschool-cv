@@ -166,6 +166,7 @@ h1 {
 	font-size: 45px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
+	color: #293133;
 }
 
 .description {
@@ -173,19 +174,21 @@ h1 {
 	font-size: 20px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	color: #293133;
 }
 
 .about_title {
 	padding-top: 60px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
+	color: #293133;
 }
 
 .lane_black {
 	margin-top: 30px;
 	width: 50px;
 	height: 2px;
-	background-color: #000000;
+	background-color: #293133;
 }
 
 .about_text {
@@ -193,12 +196,14 @@ h1 {
 	margin-top: 30px;
 	font-size: 18px;
 	line-height: 1.5;
+	color: #293133;
 }
 
 .experience_title {
 	padding-top: 60px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
+	color: #293133;
 }
 
 .experience_text {
@@ -206,6 +211,7 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
+	color: #293133;
 }
 
 .experience_link {
@@ -221,10 +227,12 @@ h1 {
 	padding-top: 60px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
+	color: #293133;
 }
 
 .code_text {
 	background-color: #E5E4E2;
+	color: #293133;
 }
 
 pre {
@@ -236,12 +244,14 @@ pre {
 	padding-top: 60px;
 	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
+	color: #293133;
 }
 
 .skills_text {
 	margin-top: 30px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+	color: #293133;
 }
 
 .skills_container {
